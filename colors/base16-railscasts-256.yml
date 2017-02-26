@@ -1,0 +1,34 @@
+# Base16 Railscasts 256 - alacritty color config
+# Ryan Bates (http://railscasts.com)
+colors:
+  # Default colors
+  primary:
+    background: '0x2b2b2b'
+    foreground: '0xe6e1dc'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x2b2b2b'
+    cursor: '0xe6e1dc'
+
+  # Normal colors
+  normal:
+    black:   '0x2b2b2b'
+    red:     '0xda4939'
+    green:   '0xa5c261'
+    yellow:  '0xffc66d'
+    blue:    '0x6d9cbe'
+    magenta: '0xb6b3eb'
+    cyan:    '0x519f50'
+    white:   '0xe6e1dc'
+
+  # Bright colors
+  bright:
+    black:   '0x5a647e'
+    red:     '0xda4939'
+    green:   '0xa5c261'
+    yellow:  '0xffc66d'
+    blue:    '0x6d9cbe'
+    magenta: '0xb6b3eb'
+    cyan:    '0x519f50'
+    white:   '0xe6e1dc'

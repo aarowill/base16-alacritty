@@ -1,0 +1,34 @@
+# Base16 Summerfruit Dark - alacritty color config
+# Christopher Corley (http://christop.club/)
+colors:
+  # Default colors
+  primary:
+    background: '0x151515'
+    foreground: '0xD0D0D0'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x151515'
+    cursor: '0xD0D0D0'
+
+  # Normal colors
+  normal:
+    black:   '0x151515'
+    red:     '0xFF0086'
+    green:   '0x00C918'
+    yellow:  '0xABA800'
+    blue:    '0x3777E6'
+    magenta: '0xAD00A1'
+    cyan:    '0x1FAAAA'
+    white:   '0xD0D0D0'
+
+  # Bright colors
+  bright:
+    black:   '0x505050'
+    red:     '0xFD8900'
+    green:   '0x202020'
+    yellow:  '0x303030'
+    blue:    '0xB0B0B0'
+    magenta: '0xE0E0E0'
+    cyan:    '0xCC6633'
+    white:   '0xD0D0D0'

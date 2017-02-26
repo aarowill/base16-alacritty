@@ -1,0 +1,34 @@
+# Base16 Atelier Savanna 256 - alacritty color config
+# Bram de Haan (http://atelierbramdehaan.nl)
+colors:
+  # Default colors
+  primary:
+    background: '0xecf4ee'
+    foreground: '0x526057'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0xecf4ee'
+    cursor: '0x526057'
+
+  # Normal colors
+  normal:
+    black:   '0xecf4ee'
+    red:     '0xb16139'
+    green:   '0x489963'
+    yellow:  '0xa07e3b'
+    blue:    '0x478c90'
+    magenta: '0x55859b'
+    cyan:    '0x1c9aa0'
+    white:   '0x526057'
+
+  # Bright colors
+  bright:
+    black:   '0x78877d'
+    red:     '0xb16139'
+    green:   '0x489963'
+    yellow:  '0xa07e3b'
+    blue:    '0x478c90'
+    magenta: '0x55859b'
+    cyan:    '0x1c9aa0'
+    white:   '0x526057'

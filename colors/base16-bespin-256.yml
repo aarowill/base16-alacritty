@@ -1,0 +1,34 @@
+# Base16 Bespin 256 - alacritty color config
+# Jan T. Sott
+colors:
+  # Default colors
+  primary:
+    background: '0x28211c'
+    foreground: '0x8a8986'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x28211c'
+    cursor: '0x8a8986'
+
+  # Normal colors
+  normal:
+    black:   '0x28211c'
+    red:     '0xcf6a4c'
+    green:   '0x54be0d'
+    yellow:  '0xf9ee98'
+    blue:    '0x5ea6ea'
+    magenta: '0x9b859d'
+    cyan:    '0xafc4db'
+    white:   '0x8a8986'
+
+  # Bright colors
+  bright:
+    black:   '0x666666'
+    red:     '0xcf6a4c'
+    green:   '0x54be0d'
+    yellow:  '0xf9ee98'
+    blue:    '0x5ea6ea'
+    magenta: '0x9b859d'
+    cyan:    '0xafc4db'
+    white:   '0x8a8986'

@@ -1,0 +1,34 @@
+# Base16 Apathy 256 - alacritty color config
+# Jannik Siebert (https://github.com/janniks)
+colors:
+  # Default colors
+  primary:
+    background: '0x031A16'
+    foreground: '0x81B5AC'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x031A16'
+    cursor: '0x81B5AC'
+
+  # Normal colors
+  normal:
+    black:   '0x031A16'
+    red:     '0x3E9688'
+    green:   '0x883E96'
+    yellow:  '0x3E4C96'
+    blue:    '0x96883E'
+    magenta: '0x4C963E'
+    cyan:    '0x963E4C'
+    white:   '0x81B5AC'
+
+  # Bright colors
+  bright:
+    black:   '0x2B685E'
+    red:     '0x3E9688'
+    green:   '0x883E96'
+    yellow:  '0x3E4C96'
+    blue:    '0x96883E'
+    magenta: '0x4C963E'
+    cyan:    '0x963E4C'
+    white:   '0x81B5AC'

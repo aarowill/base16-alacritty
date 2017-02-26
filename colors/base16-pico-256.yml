@@ -1,0 +1,34 @@
+# Base16 Pico 256 - alacritty color config
+# PICO-8 (http://www.lexaloffle.com/pico-8.php)
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0x5f574f'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x000000'
+    cursor: '0x5f574f'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0xff004d'
+    green:   '0x00e756'
+    yellow:  '0xfff024'
+    blue:    '0x83769c'
+    magenta: '0xff77a8'
+    cyan:    '0x29adff'
+    white:   '0x5f574f'
+
+  # Bright colors
+  bright:
+    black:   '0x008751'
+    red:     '0xff004d'
+    green:   '0x00e756'
+    yellow:  '0xfff024'
+    blue:    '0x83769c'
+    magenta: '0xff77a8'
+    cyan:    '0x29adff'
+    white:   '0x5f574f'

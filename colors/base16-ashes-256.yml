@@ -1,0 +1,34 @@
+# Base16 Ashes 256 - alacritty color config
+# Jannik Siebert (https://github.com/janniks)
+colors:
+  # Default colors
+  primary:
+    background: '0x1C2023'
+    foreground: '0xC7CCD1'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x1C2023'
+    cursor: '0xC7CCD1'
+
+  # Normal colors
+  normal:
+    black:   '0x1C2023'
+    red:     '0xC7AE95'
+    green:   '0x95C7AE'
+    yellow:  '0xAEC795'
+    blue:    '0xAE95C7'
+    magenta: '0xC795AE'
+    cyan:    '0x95AEC7'
+    white:   '0xC7CCD1'
+
+  # Bright colors
+  bright:
+    black:   '0x747C84'
+    red:     '0xC7AE95'
+    green:   '0x95C7AE'
+    yellow:  '0xAEC795'
+    blue:    '0xAE95C7'
+    magenta: '0xC795AE'
+    cyan:    '0x95AEC7'
+    white:   '0xC7CCD1'

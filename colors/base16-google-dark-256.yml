@@ -1,0 +1,34 @@
+# Base16 Google Dark 256 - alacritty color config
+# Seth Wright (http://sethawright.com)
+colors:
+  # Default colors
+  primary:
+    background: '0x1d1f21'
+    foreground: '0xc5c8c6'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x1d1f21'
+    cursor: '0xc5c8c6'
+
+  # Normal colors
+  normal:
+    black:   '0x1d1f21'
+    red:     '0xCC342B'
+    green:   '0x198844'
+    yellow:  '0xFBA922'
+    blue:    '0x3971ED'
+    magenta: '0xA36AC7'
+    cyan:    '0x3971ED'
+    white:   '0xc5c8c6'
+
+  # Bright colors
+  bright:
+    black:   '0x969896'
+    red:     '0xCC342B'
+    green:   '0x198844'
+    yellow:  '0xFBA922'
+    blue:    '0x3971ED'
+    magenta: '0xA36AC7'
+    cyan:    '0x3971ED'
+    white:   '0xc5c8c6'

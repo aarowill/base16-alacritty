@@ -1,0 +1,34 @@
+# Base16 Flat - alacritty color config
+# Chris Kempson (http://chriskempson.com)
+colors:
+  # Default colors
+  primary:
+    background: '0x2C3E50'
+    foreground: '0xe0e0e0'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x2C3E50'
+    cursor: '0xe0e0e0'
+
+  # Normal colors
+  normal:
+    black:   '0x2C3E50'
+    red:     '0xE74C3C'
+    green:   '0x2ECC71'
+    yellow:  '0xF1C40F'
+    blue:    '0x3498DB'
+    magenta: '0x9B59B6'
+    cyan:    '0x1ABC9C'
+    white:   '0xe0e0e0'
+
+  # Bright colors
+  bright:
+    black:   '0x95A5A6'
+    red:     '0xE67E22'
+    green:   '0x34495E'
+    yellow:  '0x7F8C8D'
+    blue:    '0xBDC3C7'
+    magenta: '0xf5f5f5'
+    cyan:    '0xbe643c'
+    white:   '0xe0e0e0'

@@ -1,0 +1,34 @@
+# Base16 OceanicNext 256 - alacritty color config
+# https://github.com/voronianski/oceanic-next-color-scheme
+colors:
+  # Default colors
+  primary:
+    background: '0x1B2B34'
+    foreground: '0xC0C5CE'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x1B2B34'
+    cursor: '0xC0C5CE'
+
+  # Normal colors
+  normal:
+    black:   '0x1B2B34'
+    red:     '0xEC5f67'
+    green:   '0x99C794'
+    yellow:  '0xFAC863'
+    blue:    '0x6699CC'
+    magenta: '0xC594C5'
+    cyan:    '0x5FB3B3'
+    white:   '0xC0C5CE'
+
+  # Bright colors
+  bright:
+    black:   '0x65737E'
+    red:     '0xEC5f67'
+    green:   '0x99C794'
+    yellow:  '0xFAC863'
+    blue:    '0x6699CC'
+    magenta: '0xC594C5'
+    cyan:    '0x5FB3B3'
+    white:   '0xC0C5CE'

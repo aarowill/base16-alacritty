@@ -1,0 +1,34 @@
+# Base16 Cupcake 256 - alacritty color config
+# Chris Kempson (http://chriskempson.com)
+colors:
+  # Default colors
+  primary:
+    background: '0xfbf1f2'
+    foreground: '0x8b8198'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0xfbf1f2'
+    cursor: '0x8b8198'
+
+  # Normal colors
+  normal:
+    black:   '0xfbf1f2'
+    red:     '0xD57E85'
+    green:   '0xA3B367'
+    yellow:  '0xDCB16C'
+    blue:    '0x7297B9'
+    magenta: '0xBB99B4'
+    cyan:    '0x69A9A7'
+    white:   '0x8b8198'
+
+  # Bright colors
+  bright:
+    black:   '0xbfb9c6'
+    red:     '0xD57E85'
+    green:   '0xA3B367'
+    yellow:  '0xDCB16C'
+    blue:    '0x7297B9'
+    magenta: '0xBB99B4'
+    cyan:    '0x69A9A7'
+    white:   '0x8b8198'
