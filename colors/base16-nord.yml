@@ -1,0 +1,34 @@
+# Base16 Nord - alacritty color config
+# arcticicestudio
+colors:
+  # Default colors
+  primary:
+    background: '0x2e3440'
+    foreground: '0xe5e9f0'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x2e3440'
+    cursor: '0xe5e9f0'
+
+  # Normal colors
+  normal:
+    black:   '0x2e3440'
+    red:     '0x88c0d0'
+    green:   '0xbf616a'
+    yellow:  '0x5e81ac'
+    blue:    '0xebcb8b'
+    magenta: '0xa3be8c'
+    cyan:    '0xd08770'
+    white:   '0xe5e9f0'
+
+  # Bright colors
+  bright:
+    black:   '0x4c566a'
+    red:     '0x81a1c1'
+    green:   '0x3b4252'
+    yellow:  '0x434c5e'
+    blue:    '0xd8dee9'
+    magenta: '0xeceff4'
+    cyan:    '0xb48ead'
+    white:   '0xe5e9f0'

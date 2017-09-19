@@ -3,32 +3,32 @@
 colors:
   # Default colors
   primary:
-    background: '0x1B2B34'
-    foreground: '0xC0C5CE'
+    background: '0x1b2b34'
+    foreground: '0xc0c5ce'
 
   # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
-    text: '0x1B2B34'
-    cursor: '0xC0C5CE'
+    text: '0x1b2b34'
+    cursor: '0xc0c5ce'
 
   # Normal colors
   normal:
-    black:   '0x1B2B34'
-    red:     '0xEC5f67'
-    green:   '0x99C794'
-    yellow:  '0xFAC863'
-    blue:    '0x6699CC'
-    magenta: '0xC594C5'
-    cyan:    '0x5FB3B3'
-    white:   '0xC0C5CE'
+    black:   '0x1b2b34'
+    red:     '0xec5f67'
+    green:   '0x99c794'
+    yellow:  '0xfac863'
+    blue:    '0x6699cc'
+    magenta: '0xc594c5'
+    cyan:    '0x5fb3b3'
+    white:   '0xc0c5ce'
 
   # Bright colors
   bright:
-    black:   '0x65737E'
-    red:     '0xF99157'
-    green:   '0x343D46'
-    yellow:  '0x4F5B66'
-    blue:    '0xA7ADBA'
-    magenta: '0xCDD3DE'
-    cyan:    '0xAB7967'
-    white:   '0xC0C5CE'
+    black:   '0x65737e'
+    red:     '0xf99157'
+    green:   '0x343d46'
+    yellow:  '0x4f5b66'
+    blue:    '0xa7adba'
+    magenta: '0xcdd3de'
+    cyan:    '0xab7967'
+    white:   '0xc0c5ce'
