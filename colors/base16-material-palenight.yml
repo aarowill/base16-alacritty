@@ -31,4 +31,4 @@ colors:
     blue:    '0x8796b0'
     magenta: '0x959dcb'
     cyan:    '0xff5370'
-    white:   '0x959dcb'
+    white:   '0xffffff'

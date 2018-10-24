@@ -1,0 +1,34 @@
+# Base16 Black Metal (Burzum) 256 - alacritty color config
+# metalelf0 (https://github.com/metalelf0)
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0xc1c1c1'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x000000'
+    cursor: '0xc1c1c1'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0x5f8787'
+    green:   '0xddeecc'
+    yellow:  '0x99bbaa'
+    blue:    '0x888888'
+    magenta: '0x999999'
+    cyan:    '0xaaaaaa'
+    white:   '0xc1c1c1'
+
+  # Bright colors
+  bright:
+    black:   '0x333333'
+    red:     '0x5f8787'
+    green:   '0xddeecc'
+    yellow:  '0x99bbaa'
+    blue:    '0x888888'
+    magenta: '0x999999'
+    cyan:    '0xaaaaaa'
+    white:   '0xc1c1c1'

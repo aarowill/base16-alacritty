@@ -1,5 +1,5 @@
 # Base16 Solarized Dark - alacritty color config
-# Ethan Schoonover (http://ethanschoonover.com/solarized)
+# Ethan Schoonover (modified by aramisgithub)
 colors:
   # Default colors
   primary:
@@ -31,4 +31,4 @@ colors:
     blue:    '0x839496'
     magenta: '0xeee8d5'
     cyan:    '0xd33682'
-    white:   '0x93a1a1'
+    white:   '0xfdf6e3'
