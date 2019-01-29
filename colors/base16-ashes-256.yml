@@ -32,3 +32,11 @@ colors:
     magenta: '0xc795ae'
     cyan:    '0x95aec7'
     white:   '0xf3f4f5'
+
+  indexed_colors:
+    - { index: 16, color: '0xc7c795' }
+    - { index: 17, color: '0xc79595' }
+    - { index: 19, color: '0x393f45' }
+    - { index: 19, color: '0x565e65' }
+    - { index: 20, color: '0xadb3ba' }
+    - { index: 21, color: '0xdfe2e5' }
