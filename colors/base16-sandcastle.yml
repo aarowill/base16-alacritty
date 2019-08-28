@@ -1,0 +1,36 @@
+# Base16 Sandcastle - alacritty color config
+# George Essig (https://github.com/gessig)
+colors:
+  # Default colors
+  primary:
+    background: '0x282c34'
+    foreground: '0xa89984'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x282c34'
+    cursor: '0xa89984'
+
+  # Normal colors
+  normal:
+    black:   '0x282c34'
+    red:     '0x83a598'
+    green:   '0x528b8b'
+    yellow:  '0xa07e3b'
+    blue:    '0x83a598'
+    magenta: '0xd75f5f'
+    cyan:    '0x83a598'
+    white:   '0xa89984'
+
+  # Bright colors
+  bright:
+    black:   '0x665c54'
+    red:     '0xa07e3b'
+    green:   '0x2c323b'
+    yellow:  '0x3e4451'
+    blue:    '0x928374'
+    magenta: '0xd5c4a1'
+    cyan:    '0xa87322'
+    white:   '0xfdf4c1'
+
+draw_bold_text_with_bright_colors: false

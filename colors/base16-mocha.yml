@@ -32,3 +32,5 @@ colors:
     magenta: '0xe9e1dd'
     cyan:    '0xbb9584'
     white:   '0xf5eeeb'
+
+draw_bold_text_with_bright_colors: false

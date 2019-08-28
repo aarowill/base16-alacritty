@@ -1,0 +1,36 @@
+# Base16 Framer - alacritty color config
+# Framer (Maintained by Jesse Hoyos)
+colors:
+  # Default colors
+  primary:
+    background: '0x181818'
+    foreground: '0xd0d0d0'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x181818'
+    cursor: '0xd0d0d0'
+
+  # Normal colors
+  normal:
+    black:   '0x181818'
+    red:     '0xfd886b'
+    green:   '0x32ccdc'
+    yellow:  '0xfecb6e'
+    blue:    '0x20bcfc'
+    magenta: '0xba8cfc'
+    cyan:    '0xacddfd'
+    white:   '0xd0d0d0'
+
+  # Bright colors
+  bright:
+    black:   '0x747474'
+    red:     '0xfc4769'
+    green:   '0x151515'
+    yellow:  '0x464646'
+    blue:    '0xb9b9b9'
+    magenta: '0xe8e8e8'
+    cyan:    '0xb15f4a'
+    white:   '0xeeeeee'
+
+draw_bold_text_with_bright_colors: false

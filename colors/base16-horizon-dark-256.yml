@@ -24,7 +24,7 @@ colors:
 
   # Bright colors
   bright:
-    black:   '0x676a8d'
+    black:   '0x6f6f70'
     red:     '0xe93c58'
     green:   '0xefaf8e'
     yellow:  '0xefb993'
@@ -38,5 +38,5 @@ colors:
     - { index: 17, color: '0xe4a382' }
     - { index: 18, color: '0x232530' }
     - { index: 19, color: '0x2e303e' }
-    - { index: 20, color: '0xced1d0' }
+    - { index: 20, color: '0x9da0a2' }
     - { index: 21, color: '0xdcdfe4' }
