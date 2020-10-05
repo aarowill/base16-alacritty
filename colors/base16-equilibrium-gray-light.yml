@@ -1,0 +1,36 @@
+# Base16 Equilibrium Gray Light - alacritty color config
+# Carlo Abelli
+colors:
+  # Default colors
+  primary:
+    background: '0xf1f1f1'
+    foreground: '0x474747'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0xf1f1f1'
+    cursor: '0x474747'
+
+  # Normal colors
+  normal:
+    black:   '0xf1f1f1'
+    red:     '0xd02023'
+    green:   '0x637200'
+    yellow:  '0x9d6f00'
+    blue:    '0x0073b5'
+    magenta: '0x4e66b6'
+    cyan:    '0x007a72'
+    white:   '0x474747'
+
+  # Bright colors
+  bright:
+    black:   '0x777777'
+    red:     '0xbf3e05'
+    green:   '0xe2e2e2'
+    yellow:  '0xd4d4d4'
+    blue:    '0x5e5e5e'
+    magenta: '0x303030'
+    cyan:    '0xc42775'
+    white:   '0x1b1b1b'
+
+draw_bold_text_with_bright_colors: false

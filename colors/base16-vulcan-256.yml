@@ -1,0 +1,42 @@
+# Base16 vulcan 256 - alacritty color config
+# Andrey Varfolomeev
+colors:
+  # Default colors
+  primary:
+    background: '0x041523'
+    foreground: '0x5b778c'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x041523'
+    cursor: '0x5b778c'
+
+  # Normal colors
+  normal:
+    black:   '0x041523'
+    red:     '0x818591'
+    green:   '0x977d7c'
+    yellow:  '0xadb4b9'
+    blue:    '0x977d7c'
+    magenta: '0x9198a3'
+    cyan:    '0x977d7c'
+    white:   '0x5b778c'
+
+  # Bright colors
+  bright:
+    black:   '0x7a5759'
+    red:     '0x818591'
+    green:   '0x977d7c'
+    yellow:  '0xadb4b9'
+    blue:    '0x977d7c'
+    magenta: '0x9198a3'
+    cyan:    '0x977d7c'
+    white:   '0x214d68'
+
+  indexed_colors:
+    - { index: 16, color: '0x9198a3' }
+    - { index: 17, color: '0x977d7c' }
+    - { index: 18, color: '0x122339' }
+    - { index: 19, color: '0x003552' }
+    - { index: 20, color: '0x6b6977' }
+    - { index: 21, color: '0x333238' }

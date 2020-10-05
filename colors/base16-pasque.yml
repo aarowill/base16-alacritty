@@ -1,0 +1,36 @@
+# Base16 Pasque - alacritty color config
+# Gabriel Fontes (https://github.com/Misterio77)
+colors:
+  # Default colors
+  primary:
+    background: '0x271c3a'
+    foreground: '0xdedcdf'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x271c3a'
+    cursor: '0xdedcdf'
+
+  # Normal colors
+  normal:
+    black:   '0x271c3a'
+    red:     '0xa92258'
+    green:   '0xc6914b'
+    yellow:  '0x804ead'
+    blue:    '0x8e7dc6'
+    magenta: '0x953b9d'
+    cyan:    '0x7263aa'
+    white:   '0xdedcdf'
+
+  # Bright colors
+  bright:
+    black:   '0x5d5766'
+    red:     '0x918889'
+    green:   '0x100323'
+    yellow:  '0x3e2d5c'
+    blue:    '0xbebcbf'
+    magenta: '0xedeaef'
+    cyan:    '0x59325c'
+    white:   '0xbbaadd'
+
+draw_bold_text_with_bright_colors: false

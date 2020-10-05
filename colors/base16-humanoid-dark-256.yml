@@ -1,0 +1,42 @@
+# Base16 Humanoid dark 256 - alacritty color config
+# Thomas (tasmo) Friese
+colors:
+  # Default colors
+  primary:
+    background: '0x232629'
+    foreground: '0xf8f8f2'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x232629'
+    cursor: '0xf8f8f2'
+
+  # Normal colors
+  normal:
+    black:   '0x232629'
+    red:     '0xf11235'
+    green:   '0x02d849'
+    yellow:  '0xffb627'
+    blue:    '0x00a6fb'
+    magenta: '0xf15ee3'
+    cyan:    '0x0dd9d6'
+    white:   '0xf8f8f2'
+
+  # Bright colors
+  bright:
+    black:   '0x60615d'
+    red:     '0xf11235'
+    green:   '0x02d849'
+    yellow:  '0xffb627'
+    blue:    '0x00a6fb'
+    magenta: '0xf15ee3'
+    cyan:    '0x0dd9d6'
+    white:   '0xfcfcfc'
+
+  indexed_colors:
+    - { index: 16, color: '0xff9505' }
+    - { index: 17, color: '0xb27701' }
+    - { index: 18, color: '0x333b3d' }
+    - { index: 19, color: '0x484e54' }
+    - { index: 20, color: '0xc0c0bd' }
+    - { index: 21, color: '0xfcfcf6' }

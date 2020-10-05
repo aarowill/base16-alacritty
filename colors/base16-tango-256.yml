@@ -1,0 +1,42 @@
+# Base16 Tango 256 - alacritty color config
+# @Schnouki, based on the Tango Desktop Project
+colors:
+  # Default colors
+  primary:
+    background: '0x2e3436'
+    foreground: '0xd3d7cf'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x2e3436'
+    cursor: '0xd3d7cf'
+
+  # Normal colors
+  normal:
+    black:   '0x2e3436'
+    red:     '0xcc0000'
+    green:   '0x4e9a06'
+    yellow:  '0xc4a000'
+    blue:    '0x3465a4'
+    magenta: '0x75507b'
+    cyan:    '0x06989a'
+    white:   '0xd3d7cf'
+
+  # Bright colors
+  bright:
+    black:   '0x555753'
+    red:     '0xcc0000'
+    green:   '0x4e9a06'
+    yellow:  '0xc4a000'
+    blue:    '0x3465a4'
+    magenta: '0x75507b'
+    cyan:    '0x06989a'
+    white:   '0xeeeeec'
+
+  indexed_colors:
+    - { index: 16, color: '0xef2929' }
+    - { index: 17, color: '0x34e2e2' }
+    - { index: 18, color: '0x8ae234' }
+    - { index: 19, color: '0xfce94f' }
+    - { index: 20, color: '0x729fcf' }
+    - { index: 21, color: '0xad7fa8' }

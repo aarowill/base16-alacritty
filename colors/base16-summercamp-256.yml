@@ -1,0 +1,42 @@
+# Base16 summercamp 256 - alacritty color config
+# zoe firi (zoefiri.github.io)
+colors:
+  # Default colors
+  primary:
+    background: '0x1c1810'
+    foreground: '0x736e55'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x1c1810'
+    cursor: '0x736e55'
+
+  # Normal colors
+  normal:
+    black:   '0x1c1810'
+    red:     '0xe35142'
+    green:   '0x5ceb5a'
+    yellow:  '0xf2ff27'
+    blue:    '0x489bf0'
+    magenta: '0xff8080'
+    cyan:    '0x5aebbc'
+    white:   '0x736e55'
+
+  # Bright colors
+  bright:
+    black:   '0x504b38'
+    red:     '0xe35142'
+    green:   '0x5ceb5a'
+    yellow:  '0xf2ff27'
+    blue:    '0x489bf0'
+    magenta: '0xff8080'
+    cyan:    '0x5aebbc'
+    white:   '0xf8f5de'
+
+  indexed_colors:
+    - { index: 16, color: '0xfba11b' }
+    - { index: 17, color: '0xf69be7' }
+    - { index: 18, color: '0x2a261c' }
+    - { index: 19, color: '0x3a3527' }
+    - { index: 20, color: '0x5f5b45' }
+    - { index: 21, color: '0xbab696' }
