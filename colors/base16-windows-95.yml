@@ -1,0 +1,36 @@
+# Base16 Windows 95 - alacritty color config
+# Fergus Collins (https://github.com/C-Fergus)
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0xa8a8a8'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x000000'
+    cursor: '0xa8a8a8'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0xfc5454'
+    green:   '0x54fc54'
+    yellow:  '0xfcfc54'
+    blue:    '0x5454fc'
+    magenta: '0xfc54fc'
+    cyan:    '0x54fcfc'
+    white:   '0xa8a8a8'
+
+  # Bright colors
+  bright:
+    black:   '0x545454'
+    red:     '0xa85400'
+    green:   '0x1c1c1c'
+    yellow:  '0x383838'
+    blue:    '0x7e7e7e'
+    magenta: '0xd2d2d2'
+    cyan:    '0x00a800'
+    white:   '0xfcfcfc'
+
+draw_bold_text_with_bright_colors: false

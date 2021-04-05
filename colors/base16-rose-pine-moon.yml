@@ -1,0 +1,36 @@
+# Base16 Rosé Pine Moon - alacritty color config
+# Emilia Dunfelt &lt;sayhi@dunfelt.se&gt;
+colors:
+  # Default colors
+  primary:
+    background: '0x232136'
+    foreground: '0xe0def4'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x232136'
+    cursor: '0xe0def4'
+
+  # Normal colors
+  normal:
+    black:   '0x232136'
+    red:     '0xecebf0'
+    green:   '0xea9a97'
+    yellow:  '0xf6c177'
+    blue:    '0x9ccfd8'
+    magenta: '0xc4a7e7'
+    cyan:    '0x3e8fb0'
+    white:   '0xe0def4'
+
+  # Bright colors
+  bright:
+    black:   '0x59546d'
+    red:     '0xeb6f92'
+    green:   '0x2a273f'
+    yellow:  '0x393552'
+    blue:    '0x817c9c'
+    magenta: '0xf5f5f7'
+    cyan:    '0xb9b9bc'
+    white:   '0xd9d7e1'
+
+draw_bold_text_with_bright_colors: false

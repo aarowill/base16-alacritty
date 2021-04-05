@@ -1,0 +1,36 @@
+# Base16 Rosé Pine - alacritty color config
+# Emilia Dunfelt &lt;sayhi@dunfelt.se&gt;
+colors:
+  # Default colors
+  primary:
+    background: '0x191724'
+    foreground: '0xe0def4'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x191724'
+    cursor: '0xe0def4'
+
+  # Normal colors
+  normal:
+    black:   '0x191724'
+    red:     '0xe2e1e7'
+    green:   '0xebbcba'
+    yellow:  '0xf6c177'
+    blue:    '0x9ccfd8'
+    magenta: '0xc4a7e7'
+    cyan:    '0x31748f'
+    white:   '0xe0def4'
+
+  # Bright colors
+  bright:
+    black:   '0x555169'
+    red:     '0xeb6f92'
+    green:   '0x1f1d2e'
+    yellow:  '0x26233a'
+    blue:    '0x6e6a86'
+    magenta: '0xf0f0f3'
+    cyan:    '0xe5e5e5'
+    white:   '0xc5c3ce'
+
+draw_bold_text_with_bright_colors: false

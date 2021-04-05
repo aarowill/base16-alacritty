@@ -1,0 +1,36 @@
+# Base16 DanQing - alacritty color config
+# Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)
+colors:
+  # Default colors
+  primary:
+    background: '0x2d302f'
+    foreground: '0xe0f0ef'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x2d302f'
+    cursor: '0xe0f0ef'
+
+  # Normal colors
+  normal:
+    black:   '0x2d302f'
+    red:     '0xf9906f'
+    green:   '0x8ab361'
+    yellow:  '0xf0c239'
+    blue:    '0xb0a4e3'
+    magenta: '0xcca4e3'
+    cyan:    '0x30dff3'
+    white:   '0xe0f0ef'
+
+  # Bright colors
+  bright:
+    black:   '0x9da8a3'
+    red:     '0xb38a61'
+    green:   '0x434846'
+    yellow:  '0x5a605d'
+    blue:    '0xcad8d2'
+    magenta: '0xecf6f2'
+    cyan:    '0xca6924'
+    white:   '0xfcfefd'
+
+draw_bold_text_with_bright_colors: false

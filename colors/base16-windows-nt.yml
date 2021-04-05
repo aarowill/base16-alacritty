@@ -1,0 +1,36 @@
+# Base16 Windows NT - alacritty color config
+# Fergus Collins (https://github.com/C-Fergus)
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0xc0c0c0'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x000000'
+    cursor: '0xc0c0c0'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0xff0000'
+    green:   '0x00ff00'
+    yellow:  '0xffff00'
+    blue:    '0x0000ff'
+    magenta: '0xff00ff'
+    cyan:    '0x00ffff'
+    white:   '0xc0c0c0'
+
+  # Bright colors
+  bright:
+    black:   '0x808080'
+    red:     '0x808000'
+    green:   '0x2a2a2a'
+    yellow:  '0x555555'
+    blue:    '0xa1a1a1'
+    magenta: '0xe0e0e0'
+    cyan:    '0x008000'
+    white:   '0xffffff'
+
+draw_bold_text_with_bright_colors: false

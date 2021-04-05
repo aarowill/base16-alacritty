@@ -1,0 +1,42 @@
+# Base16 Darcula 256 - alacritty color config
+# jetbrains
+colors:
+  # Default colors
+  primary:
+    background: '0x2b2b2b'
+    foreground: '0xa9b7c6'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x2b2b2b'
+    cursor: '0xa9b7c6'
+
+  # Normal colors
+  normal:
+    black:   '0x2b2b2b'
+    red:     '0x4eade5'
+    green:   '0x6a8759'
+    yellow:  '0xbbb529'
+    blue:    '0x9876aa'
+    magenta: '0xcc7832'
+    cyan:    '0x629755'
+    white:   '0xa9b7c6'
+
+  # Bright colors
+  bright:
+    black:   '0x606366'
+    red:     '0x4eade5'
+    green:   '0x6a8759'
+    yellow:  '0xbbb529'
+    blue:    '0x9876aa'
+    magenta: '0xcc7832'
+    cyan:    '0x629755'
+    white:   '0xffffff'
+
+  indexed_colors:
+    - { index: 16, color: '0x689757' }
+    - { index: 17, color: '0x808080' }
+    - { index: 18, color: '0x323232' }
+    - { index: 19, color: '0x323232' }
+    - { index: 20, color: '0xa4a3a3' }
+    - { index: 21, color: '0xffc66d' }

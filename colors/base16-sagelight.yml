@@ -1,0 +1,36 @@
+# Base16 Sagelight - alacritty color config
+# Carter Veldhuizen
+colors:
+  # Default colors
+  primary:
+    background: '0xf8f8f8'
+    foreground: '0x383838'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0xf8f8f8'
+    cursor: '0x383838'
+
+  # Normal colors
+  normal:
+    black:   '0xf8f8f8'
+    red:     '0xfa8480'
+    green:   '0xa0d2c8'
+    yellow:  '0xffdc61'
+    blue:    '0xa0a7d2'
+    magenta: '0xc8a0d2'
+    cyan:    '0xa2d6f5'
+    white:   '0x383838'
+
+  # Bright colors
+  bright:
+    black:   '0xb8b8b8'
+    red:     '0xffaa61'
+    green:   '0xe8e8e8'
+    yellow:  '0xd8d8d8'
+    blue:    '0x585858'
+    magenta: '0x282828'
+    cyan:    '0xd2b2a0'
+    white:   '0x181818'
+
+draw_bold_text_with_bright_colors: false

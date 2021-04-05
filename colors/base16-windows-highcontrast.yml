@@ -1,0 +1,36 @@
+# Base16 Windows High Contrast - alacritty color config
+# Fergus Collins (https://github.com/C-Fergus)
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0xc0c0c0'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x000000'
+    cursor: '0xc0c0c0'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0xfc5454'
+    green:   '0x54fc54'
+    yellow:  '0xfcfc54'
+    blue:    '0x5454fc'
+    magenta: '0xfc54fc'
+    cyan:    '0x54fcfc'
+    white:   '0xc0c0c0'
+
+  # Bright colors
+  bright:
+    black:   '0x545454'
+    red:     '0x808000'
+    green:   '0x1c1c1c'
+    yellow:  '0x383838'
+    blue:    '0xa2a2a2'
+    magenta: '0xdedede'
+    cyan:    '0x008000'
+    white:   '0xfcfcfc'
+
+draw_bold_text_with_bright_colors: false
