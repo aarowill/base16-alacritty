@@ -1,0 +1,42 @@
+# Base16 Ayu Light 256 - alacritty color config
+# Khue Nguyen &lt;Z5483Y@gmail.com&gt;
+colors:
+  # Default colors
+  primary:
+    background: '0xfafafa'
+    foreground: '0x5c6773'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0xfafafa'
+    cursor: '0x5c6773'
+
+  # Normal colors
+  normal:
+    black:   '0xfafafa'
+    red:     '0xf07178'
+    green:   '0x86b300'
+    yellow:  '0xf2ae49'
+    blue:    '0x36a3d9'
+    magenta: '0xa37acc'
+    cyan:    '0x4cbf99'
+    white:   '0x5c6773'
+
+  # Bright colors
+  bright:
+    black:   '0xabb0b6'
+    red:     '0xf07178'
+    green:   '0x86b300'
+    yellow:  '0xf2ae49'
+    blue:    '0x36a3d9'
+    magenta: '0xa37acc'
+    cyan:    '0x4cbf99'
+    white:   '0x1a1f29'
+
+  indexed_colors:
+    - { index: 16, color: '0xfa8d3e' }
+    - { index: 17, color: '0xe6ba7e' }
+    - { index: 18, color: '0xf3f4f5' }
+    - { index: 19, color: '0xf8f9fa' }
+    - { index: 20, color: '0x828c99' }
+    - { index: 21, color: '0x242936' }

@@ -1,0 +1,42 @@
+# Base16 pinky 256 - alacritty color config
+# Benjamin (https://github.com/b3nj5m1n)
+colors:
+  # Default colors
+  primary:
+    background: '0x171517'
+    foreground: '0xf5f5f5'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x171517'
+    cursor: '0xf5f5f5'
+
+  # Normal colors
+  normal:
+    black:   '0x171517'
+    red:     '0xffa600'
+    green:   '0xff0066'
+    yellow:  '0x20df6c'
+    blue:    '0x00ffff'
+    magenta: '0x007fff'
+    cyan:    '0x6600ff'
+    white:   '0xf5f5f5'
+
+  # Bright colors
+  bright:
+    black:   '0x383338'
+    red:     '0xffa600'
+    green:   '0xff0066'
+    yellow:  '0x20df6c'
+    blue:    '0x00ffff'
+    magenta: '0x007fff'
+    cyan:    '0x6600ff'
+    white:   '0xf7f3f7'
+
+  indexed_colors:
+    - { index: 16, color: '0x00ff66' }
+    - { index: 17, color: '0xdf206c' }
+    - { index: 18, color: '0x1b181b' }
+    - { index: 19, color: '0x1d1b1d' }
+    - { index: 20, color: '0xe7dbdb' }
+    - { index: 21, color: '0xffffff' }

@@ -1,0 +1,42 @@
+# Base16 lime 256 - alacritty color config
+# limelier
+colors:
+  # Default colors
+  primary:
+    background: '0x1a1a2f'
+    foreground: '0x818175'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x1a1a2f'
+    cursor: '0x818175'
+
+  # Normal colors
+  normal:
+    black:   '0x1a1a2f'
+    red:     '0xff662a'
+    green:   '0x8cd97c'
+    yellow:  '0xffd15e'
+    blue:    '0x2b926f'
+    magenta: '0x1b825f'
+    cyan:    '0x4cad83'
+    white:   '0x818175'
+
+  # Bright colors
+  bright:
+    black:   '0x313140'
+    red:     '0xff662a'
+    green:   '0x8cd97c'
+    yellow:  '0xffd15e'
+    blue:    '0x2b926f'
+    magenta: '0x1b825f'
+    cyan:    '0x4cad83'
+    white:   '0xfff8e1'
+
+  indexed_colors:
+    - { index: 16, color: '0xff773a' }
+    - { index: 17, color: '0xb4d97c' }
+    - { index: 18, color: '0x202030' }
+    - { index: 19, color: '0x2a2a3f' }
+    - { index: 20, color: '0x515155' }
+    - { index: 21, color: '0xfff2d1' }

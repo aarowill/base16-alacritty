@@ -1,0 +1,36 @@
+# Base16 Sakura - alacritty color config
+# Misterio77 (http://github.com/Misterio77)
+colors:
+  # Default colors
+  primary:
+    background: '0xfeedf3'
+    foreground: '0x564448'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0xfeedf3'
+    cursor: '0x564448'
+
+  # Normal colors
+  normal:
+    black:   '0xfeedf3'
+    red:     '0xdf2d52'
+    green:   '0x2e916d'
+    yellow:  '0xc29461'
+    blue:    '0x006e93'
+    magenta: '0x5e2180'
+    cyan:    '0x1d8991'
+    white:   '0x564448'
+
+  # Bright colors
+  bright:
+    black:   '0x755f64'
+    red:     '0xf6661e'
+    green:   '0xf8e2e7'
+    yellow:  '0xe0ccd1'
+    blue:    '0x665055'
+    magenta: '0x42383a'
+    cyan:    '0xba0d35'
+    white:   '0x33292b'
+
+draw_bold_text_with_bright_colors: false

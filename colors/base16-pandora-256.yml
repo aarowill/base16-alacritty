@@ -1,0 +1,42 @@
+# Base16 pandora 256 - alacritty color config
+# Cassandra Fox
+colors:
+  # Default colors
+  primary:
+    background: '0x131213'
+    foreground: '0xf15c99'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x131213'
+    cursor: '0xf15c99'
+
+  # Normal colors
+  normal:
+    black:   '0x131213'
+    red:     '0xb00b69'
+    green:   '0x9ddf69'
+    yellow:  '0xffcc00'
+    blue:    '0x008080'
+    magenta: '0xa24030'
+    cyan:    '0x714ca6'
+    white:   '0xf15c99'
+
+  # Bright colors
+  bright:
+    black:   '0xffbee3'
+    red:     '0xb00b69'
+    green:   '0x9ddf69'
+    yellow:  '0xffcc00'
+    blue:    '0x008080'
+    magenta: '0xa24030'
+    cyan:    '0x714ca6'
+    white:   '0x632227'
+
+  indexed_colors:
+    - { index: 16, color: '0xff9153' }
+    - { index: 17, color: '0xa24030' }
+    - { index: 18, color: '0x2f1823' }
+    - { index: 19, color: '0x472234' }
+    - { index: 20, color: '0x9b2a46' }
+    - { index: 21, color: '0x81506a' }

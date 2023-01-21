@@ -1,0 +1,36 @@
+# Base16 Shades of Purple - alacritty color config
+# Iolar Demartini Junior (http://github.com/demartini) based on Shades of Purple Theme (https://github.com/ahmadawais/shades-of-purple-vscode).
+colors:
+  # Default colors
+  primary:
+    background: '0x1e1e3f'
+    foreground: '0xc7c7c7'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x1e1e3f'
+    cursor: '0xc7c7c7'
+
+  # Normal colors
+  normal:
+    black:   '0x1e1e3f'
+    red:     '0xd90429'
+    green:   '0x3ad900'
+    yellow:  '0xffe700'
+    blue:    '0x6943ff'
+    magenta: '0xff2c70'
+    cyan:    '0x00c5c7'
+    white:   '0xc7c7c7'
+
+  # Bright colors
+  bright:
+    black:   '0x808080'
+    red:     '0xf92a1c'
+    green:   '0x43d426'
+    yellow:  '0xf1d000'
+    blue:    '0x6871ff'
+    magenta: '0xff77ff'
+    cyan:    '0x79e8fb'
+    white:   '0xffffff'
+
+draw_bold_text_with_bright_colors: false

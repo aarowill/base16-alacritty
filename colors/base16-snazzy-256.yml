@@ -1,5 +1,5 @@
 # Base16 Snazzy 256 - alacritty color config
-# Chawye Hsu (https://github.com/h404bi) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
+# Chawye Hsu (https://github.com/chawyehsu) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
 colors:
   # Default colors
   primary:

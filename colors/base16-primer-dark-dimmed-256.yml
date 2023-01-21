@@ -1,0 +1,42 @@
+# Base16 Primer Dark Dimmed 256 - alacritty color config
+# Jimmy Lin
+colors:
+  # Default colors
+  primary:
+    background: '0x1c2128'
+    foreground: '0x909dab'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x1c2128'
+    cursor: '0x909dab'
+
+  # Normal colors
+  normal:
+    black:   '0x1c2128'
+    red:     '0xf47067'
+    green:   '0x57ab5a'
+    yellow:  '0xc69026'
+    blue:    '0x539bf5'
+    magenta: '0xe275ad'
+    cyan:    '0x96d0ff'
+    white:   '0x909dab'
+
+  # Bright colors
+  bright:
+    black:   '0x545d68'
+    red:     '0xf47067'
+    green:   '0x57ab5a'
+    yellow:  '0xc69026'
+    blue:    '0x539bf5'
+    magenta: '0xe275ad'
+    cyan:    '0x96d0ff'
+    white:   '0xcdd9e5'
+
+  indexed_colors:
+    - { index: 16, color: '0xe0823d' }
+    - { index: 17, color: '0xae5622' }
+    - { index: 18, color: '0x373e47' }
+    - { index: 19, color: '0x444c56' }
+    - { index: 20, color: '0x768390' }
+    - { index: 21, color: '0xadbac7' }

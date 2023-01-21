@@ -1,0 +1,42 @@
+# Base16 Tokyodark 256 - alacritty color config
+# Tiagovla (https://github.com/tiagovla/)
+colors:
+  # Default colors
+  primary:
+    background: '0x11121d'
+    foreground: '0xabb2bf'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x11121d'
+    cursor: '0xabb2bf'
+
+  # Normal colors
+  normal:
+    black:   '0x11121d'
+    red:     '0xa485dd'
+    green:   '0xd7a65f'
+    yellow:  '0x7199ee'
+    blue:    '0x95c561'
+    magenta: '0xee6d85'
+    cyan:    '0xa485dd'
+    white:   '0xabb2bf'
+
+  # Bright colors
+  bright:
+    black:   '0x393a45'
+    red:     '0xa485dd'
+    green:   '0xd7a65f'
+    yellow:  '0x7199ee'
+    blue:    '0x95c561'
+    magenta: '0xee6d85'
+    cyan:    '0xa485dd'
+    white:   '0x2c2d38'
+
+  indexed_colors:
+    - { index: 16, color: '0xa485dd' }
+    - { index: 17, color: '0x773440' }
+    - { index: 18, color: '0x151621' }
+    - { index: 19, color: '0x43444f' }
+    - { index: 20, color: '0x1b1c27' }
+    - { index: 21, color: '0x555661' }

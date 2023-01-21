@@ -1,0 +1,36 @@
+# Base16 Harmonic16 Dark - alacritty color config
+# Jannik Siebert (https://github.com/janniks)
+colors:
+  # Default colors
+  primary:
+    background: '0x0b1c2c'
+    foreground: '0xcbd6e2'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x0b1c2c'
+    cursor: '0xcbd6e2'
+
+  # Normal colors
+  normal:
+    black:   '0x0b1c2c'
+    red:     '0xbf8b56'
+    green:   '0x56bf8b'
+    yellow:  '0x8bbf56'
+    blue:    '0x8b56bf'
+    magenta: '0xbf568b'
+    cyan:    '0x568bbf'
+    white:   '0xcbd6e2'
+
+  # Bright colors
+  bright:
+    black:   '0x627e99'
+    red:     '0xbfbf56'
+    green:   '0x223b54'
+    yellow:  '0x405c79'
+    blue:    '0xaabcce'
+    magenta: '0xe5ebf1'
+    cyan:    '0xbf5656'
+    white:   '0xf7f9fb'
+
+draw_bold_text_with_bright_colors: false

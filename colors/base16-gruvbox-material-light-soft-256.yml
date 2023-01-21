@@ -1,0 +1,42 @@
+# Base16 Gruvbox Material Light, Soft 256 - alacritty color config
+# Mayush Kumar (https://github.com/MayushKumar), sainnhe (https://github.com/sainnhe/gruvbox-material-vscode)
+colors:
+  # Default colors
+  primary:
+    background: '0xf2e5bc'
+    foreground: '0x654735'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0xf2e5bc'
+    cursor: '0x654735'
+
+  # Normal colors
+  normal:
+    black:   '0xf2e5bc'
+    red:     '0xc14a4a'
+    green:   '0x6c782e'
+    yellow:  '0xb47109'
+    blue:    '0x45707a'
+    magenta: '0x945e80'
+    cyan:    '0x4c7a5d'
+    white:   '0x654735'
+
+  # Bright colors
+  bright:
+    black:   '0xa89984'
+    red:     '0xc14a4a'
+    green:   '0x6c782e'
+    yellow:  '0xb47109'
+    blue:    '0x45707a'
+    magenta: '0x945e80'
+    cyan:    '0x4c7a5d'
+    white:   '0x282828'
+
+  indexed_colors:
+    - { index: 16, color: '0xc35e0a' }
+    - { index: 17, color: '0xe78a4e' }
+    - { index: 18, color: '0xebdbb2' }
+    - { index: 19, color: '0xc9b99a' }
+    - { index: 20, color: '0x665c54' }
+    - { index: 21, color: '0x3c3836' }
