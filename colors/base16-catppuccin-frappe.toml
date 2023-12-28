@@ -1,0 +1,37 @@
+# Base16 Catppuccin Frappe - alacritty color config
+# https://github.com/catppuccin/catppuccin
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x303446'
+foreground = '0xc6d0f5'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x303446'
+cursor = '0xc6d0f5'
+
+# Normal colors
+[colors.normal]
+black = '0x303446'
+red = '0xe78284'
+green = '0xa6d189'
+yellow = '0xe5c890'
+blue = '0x8caaee'
+magenta = '0xca9ee6'
+cyan = '0x81c8be'
+white = '0xc6d0f5'
+
+# Bright colors
+[colors.bright]
+black = '0x51576d'
+red = '0xef9f76'
+green = '0x292c3c'
+yellow = '0x414559'
+blue = '0x626880'
+magenta = '0xf2d5cf'
+cyan = '0xeebebe'
+white = '0xbabbf1'

@@ -1,0 +1,37 @@
+# Base16 eris - alacritty color config
+# ed (https://codeberg.org/ed)
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x0a0920'
+foreground = '0x606bac'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x0a0920'
+cursor = '0x606bac'
+
+# Normal colors
+[colors.normal]
+black = '0x0a0920'
+red = '0xf768a3'
+green = '0xfaaea2'
+yellow = '0xfaaea2'
+blue = '0x258fc4'
+magenta = '0xf768a3'
+cyan = '0x258fc4'
+white = '0x606bac'
+
+# Bright colors
+[colors.bright]
+black = '0x333773'
+red = '0xf768a3'
+green = '0x13133a'
+yellow = '0x23255a'
+blue = '0x4a5293'
+magenta = '0x7986c5'
+cyan = '0xf768a3'
+white = '0x9aaae5'

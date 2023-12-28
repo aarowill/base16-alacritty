@@ -1,0 +1,37 @@
+# Base16 Catppuccin Macchiato - alacritty color config
+# https://github.com/catppuccin/catppuccin
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x24273a'
+foreground = '0xcad3f5'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x24273a'
+cursor = '0xcad3f5'
+
+# Normal colors
+[colors.normal]
+black = '0x24273a'
+red = '0xed8796'
+green = '0xa6da95'
+yellow = '0xeed49f'
+blue = '0x8aadf4'
+magenta = '0xc6a0f6'
+cyan = '0x8bd5ca'
+white = '0xcad3f5'
+
+# Bright colors
+[colors.bright]
+black = '0x494d64'
+red = '0xf5a97f'
+green = '0x1e2030'
+yellow = '0x363a4f'
+blue = '0x5b6078'
+magenta = '0xf4dbd6'
+cyan = '0xf0c6c6'
+white = '0xb7bdf8'

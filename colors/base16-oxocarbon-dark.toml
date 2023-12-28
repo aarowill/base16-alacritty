@@ -1,0 +1,37 @@
+# Base16 Oxocarbon Dark - alacritty color config
+# shaunsingh/IBM
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x161616'
+foreground = '0xf2f4f8'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x161616'
+cursor = '0xf2f4f8'
+
+# Normal colors
+[colors.normal]
+black = '0x161616'
+red = '0x3ddbd9'
+green = '0x33b1ff'
+yellow = '0xee5396'
+blue = '0x42be65'
+magenta = '0xbe95ff'
+cyan = '0xff7eb6'
+white = '0xf2f4f8'
+
+# Bright colors
+[colors.bright]
+black = '0x525252'
+red = '0x78a9ff'
+green = '0x262626'
+yellow = '0x393939'
+blue = '0xdde1e6'
+magenta = '0xffffff'
+cyan = '0x82cfff'
+white = '0x08bdba'

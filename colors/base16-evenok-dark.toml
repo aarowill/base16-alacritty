@@ -1,0 +1,37 @@
+# Base16 Evenok Dark - alacritty color config
+# Mekeor Melire
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x000000'
+foreground = '0xd0d0d0'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x000000'
+cursor = '0xd0d0d0'
+
+# Normal colors
+[colors.normal]
+black = '0x000000'
+red = '0xf5708a'
+green = '0x54bc5c'
+yellow = '0xb8a300'
+blue = '0x00aff2'
+magenta = '0x9095ff'
+cyan = '0x00bab3'
+white = '0xd0d0d0'
+
+# Bright colors
+[colors.bright]
+black = '0x505050'
+red = '0xee8122'
+green = '0x202020'
+yellow = '0x303030'
+blue = '0xb0b0b0'
+magenta = '0xe0e0e0'
+cyan = '0xd47ada'
+white = '0xffffff'

@@ -1,0 +1,37 @@
+# Base16 dirtysea - alacritty color config
+# Kahlil (Kal) Hodgson
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0xe0e0e0'
+foreground = '0x000000'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0xe0e0e0'
+cursor = '0x000000'
+
+# Normal colors
+[colors.normal]
+black = '0xe0e0e0'
+red = '0x840000'
+green = '0x730073'
+yellow = '0x755b00'
+blue = '0x007300'
+magenta = '0x000090'
+cyan = '0x755b00'
+white = '0x000000'
+
+# Bright colors
+[colors.bright]
+black = '0x707070'
+red = '0x006565'
+green = '0xd0dad0'
+yellow = '0xd0d0d0'
+blue = '0x202020'
+magenta = '0xf8f8f8'
+cyan = '0x755b00'
+white = '0xc4d9c4'

@@ -1,0 +1,37 @@
+# Base16 Seti UI - alacritty color config
+# 
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x151718'
+foreground = '0xd6d6d6'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x151718'
+cursor = '0xd6d6d6'
+
+# Normal colors
+[colors.normal]
+black = '0x151718'
+red = '0xcd3f45'
+green = '0x9fca56'
+yellow = '0xe6cd69'
+blue = '0x55b5db'
+magenta = '0xa074c4'
+cyan = '0x55dbbe'
+white = '0xd6d6d6'
+
+# Bright colors
+[colors.bright]
+black = '0x41535b'
+red = '0xdb7b55'
+green = '0x282a2b'
+yellow = '0x3b758c'
+blue = '0x43a5d5'
+magenta = '0xeeeeee'
+cyan = '0x8a553f'
+white = '0xffffff'

@@ -1,0 +1,37 @@
+# Base16 Outrun Dark - alacritty color config
+# Hugo Delahousse (http://github.com/hugodelahousse/)
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x00002a'
+foreground = '0xd0d0fa'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x00002a'
+cursor = '0xd0d0fa'
+
+# Normal colors
+[colors.normal]
+black = '0x00002a'
+red = '0xff4242'
+green = '0x59f176'
+yellow = '0xf3e877'
+blue = '0x66b0ff'
+magenta = '0xf10596'
+cyan = '0x0ef0f0'
+white = '0xd0d0fa'
+
+# Bright colors
+[colors.bright]
+black = '0x50507a'
+red = '0xfc8d28'
+green = '0x20204a'
+yellow = '0x30305a'
+blue = '0xb0b0da'
+magenta = '0xe0e0ff'
+cyan = '0xf003ef'
+white = '0xf5f5ff'

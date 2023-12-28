@@ -1,0 +1,37 @@
+# Base16 UwUnicorn - alacritty color config
+# Fernando Marques (https://github.com/RakkiUwU) and Gabriel Fontes (https://github.com/Misterio77)
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x241b26'
+foreground = '0xeed5d9'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x241b26'
+cursor = '0xeed5d9'
+
+# Normal colors
+[colors.normal]
+black = '0x241b26'
+red = '0x877bb6'
+green = '0xc965bf'
+yellow = '0xa84a73'
+blue = '0x6a9eb5'
+magenta = '0x78a38f'
+cyan = '0x9c5fce'
+white = '0xeed5d9'
+
+# Bright colors
+[colors.bright]
+black = '0x6c3cb2'
+red = '0xde5b44'
+green = '0x2f2a3f'
+yellow = '0x46354a'
+blue = '0x7e5f83'
+magenta = '0xd9c2c6'
+cyan = '0xa3a079'
+white = '0xe4ccd0'

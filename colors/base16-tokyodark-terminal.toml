@@ -1,0 +1,37 @@
+# Base16 Tokyodark Terminal - alacritty color config
+# Tiagovla (https://github.com/tiagovla/)
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x11121d'
+foreground = '0xa0a8cd'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x11121d'
+cursor = '0xa0a8cd'
+
+# Normal colors
+[colors.normal]
+black = '0x11121d'
+red = '0xee6d85'
+green = '0x95c561'
+yellow = '0xd7a65f'
+blue = '0x7199ee'
+magenta = '0xa485dd'
+cyan = '0x38a89d'
+white = '0xa0a8cd'
+
+# Bright colors
+[colors.bright]
+black = '0x282c34'
+red = '0xf6955b'
+green = '0x1a1b2a'
+yellow = '0x212234'
+blue = '0x4a5057'
+magenta = '0xa0a8cd'
+cyan = '0x773440'
+white = '0xa0a8cd'

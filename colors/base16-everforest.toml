@@ -1,0 +1,37 @@
+# Base16 Everforest - alacritty color config
+# Sainnhe Park (https://github.com/sainnhe)
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x2f383e'
+foreground = '0xd3c6aa'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x2f383e'
+cursor = '0xd3c6aa'
+
+# Normal colors
+[colors.normal]
+black = '0x2f383e'
+red = '0x7fbbb3'
+green = '0x83c092'
+yellow = '0xdbbc7f'
+blue = '0xa7c080'
+magenta = '0xe67e80'
+cyan = '0xe69875'
+white = '0xd3c6aa'
+
+# Bright colors
+[colors.bright]
+black = '0x859289'
+red = '0xd699b6'
+green = '0x374247'
+yellow = '0x4a555b'
+blue = '0x9da9a0'
+magenta = '0xe4e1cd'
+cyan = '0xeaedc8'
+white = '0xfdf6e3'

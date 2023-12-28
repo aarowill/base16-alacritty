@@ -1,0 +1,37 @@
+# Base16 Mountain - alacritty color config
+# gnsfujiwara (https://github.com/gnsfujiwara)
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x0f0f0f'
+foreground = '0xcacaca'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x0f0f0f'
+cursor = '0xcacaca'
+
+# Normal colors
+[colors.normal]
+black = '0x0f0f0f'
+red = '0xac8a8c'
+green = '0x8aac8b'
+yellow = '0xaca98a'
+blue = '0x8f8aac'
+magenta = '0xac8aac'
+cyan = '0x8aabac'
+white = '0xcacaca'
+
+# Bright colors
+[colors.bright]
+black = '0x4c4c4c'
+red = '0xceb188'
+green = '0x191919'
+yellow = '0x262626'
+blue = '0xac8a8c'
+magenta = '0xe7e7e7'
+cyan = '0xac8a8c'
+white = '0xf0f0f0'
