@@ -11,7 +11,7 @@ foreground = '0xd0d0fa'
 text = '0x00002a'
 cursor = '0xd0d0fa'
 
-  # Normal colors
+# Normal colors
 [colors.normal]
 black = '0x00002a'
 red = '0xff4242'

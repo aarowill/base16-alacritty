@@ -1,0 +1,37 @@
+# Base16 Nord Light - alacritty color config
+# threddast, based on fuxialexander&#39;s doom-nord-light-theme (Doom Emacs)
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0xe5e9f0'
+foreground = '0x2e3440'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0xe5e9f0'
+cursor = '0x2e3440'
+
+# Normal colors
+[colors.normal]
+black = '0xe5e9f0'
+red = '0x99324b'
+green = '0x4f894c'
+yellow = '0x9a7500'
+blue = '0x3b6ea8'
+magenta = '0x97365b'
+cyan = '0x398eac'
+white = '0x2e3440'
+
+# Bright colors
+[colors.bright]
+black = '0xaebacf'
+red = '0xac4426'
+green = '0xc2d0e7'
+yellow = '0xb8c5db'
+blue = '0x60728c'
+magenta = '0x3b4252'
+cyan = '0x5272af'
+white = '0x29838d'
