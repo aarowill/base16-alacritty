@@ -1,0 +1,37 @@
+# Base16 Da One Sea - alacritty color config
+# NNB (https://github.com/NNBnh)
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x22273d'
+foreground = '0xffffff'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x22273d'
+cursor = '0xffffff'
+
+# Normal colors
+[colors.normal]
+black = '0x22273d'
+red = '0xfa7883'
+green = '0x98c379'
+yellow = '0xff9470'
+blue = '0x6bb8ff'
+magenta = '0xe799ff'
+cyan = '0x8af5ff'
+white = '0xffffff'
+
+# Bright colors
+[colors.bright]
+black = '0x878d96'
+red = '0xffc387'
+green = '0x374059'
+yellow = '0x525866'
+blue = '0xc8c8c8'
+magenta = '0xffffff'
+cyan = '0xb3684f'
+white = '0xffffff'

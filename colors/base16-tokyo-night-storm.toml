@@ -1,0 +1,37 @@
+# Base16 Tokyo Night Storm - alacritty color config
+# Michaël Ball
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x24283b'
+foreground = '0xa9b1d6'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x24283b'
+cursor = '0xa9b1d6'
+
+# Normal colors
+[colors.normal]
+black = '0x24283b'
+red = '0xc0caf5'
+green = '0x9ece6a'
+yellow = '0x0db9d7'
+blue = '0x2ac3de'
+magenta = '0xbb9af7'
+cyan = '0xb4f9f8'
+white = '0xa9b1d6'
+
+# Bright colors
+[colors.bright]
+black = '0x444b6a'
+red = '0xa9b1d6'
+green = '0x16161e'
+yellow = '0x343a52'
+blue = '0x787c99'
+magenta = '0xcbccd1'
+cyan = '0xf7768e'
+white = '0xd5d6db'

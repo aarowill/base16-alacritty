@@ -1,0 +1,37 @@
+# Base16 Zenbones - alacritty color config
+# mcchrish
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x191919'
+foreground = '0xb279a7'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x191919'
+cursor = '0xb279a7'
+
+# Normal colors
+[colors.normal]
+black = '0x191919'
+red = '0x3d3839'
+green = '0xd68c67'
+yellow = '0x8bae68'
+blue = '0xcf86c1'
+magenta = '0x65b8c1'
+cyan = '0x61abda'
+white = '0xb279a7'
+
+# Bright colors
+[colors.bright]
+black = '0xb77e64'
+red = '0xe8838f'
+green = '0xde6e7c'
+yellow = '0x819b69'
+blue = '0x6099c0'
+magenta = '0x66a5ad'
+cyan = '0x8e8e8e'
+white = '0xbbbbbb'

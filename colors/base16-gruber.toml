@@ -1,0 +1,37 @@
+# Base16 Gruber - alacritty color config
+# Patel, Nimai &lt;nimai.m.patel@gmail.com&gt;, colors from www.github.com/rexim/gruber-darker-theme
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x181818'
+foreground = '0xf4f4ff'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x181818'
+cursor = '0xf4f4ff'
+
+# Normal colors
+[colors.normal]
+black = '0x181818'
+red = '0xf43841'
+green = '0x73c936'
+yellow = '0xffdd33'
+blue = '0x96a6c8'
+magenta = '0x9e95c7'
+cyan = '0x95a99f'
+white = '0xf4f4ff'
+
+# Bright colors
+[colors.bright]
+black = '0x52494e'
+red = '0xc73c3f'
+green = '0x453d41'
+yellow = '0x484848'
+blue = '0xe4e4ef'
+magenta = '0xf5f5f5'
+cyan = '0xcc8c3c'
+white = '0xe4e4ef'

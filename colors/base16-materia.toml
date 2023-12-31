@@ -1,0 +1,37 @@
+# Base16 Materia - alacritty color config
+# Defman21
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x263238'
+foreground = '0xcdd3de'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x263238'
+cursor = '0xcdd3de'
+
+# Normal colors
+[colors.normal]
+black = '0x263238'
+red = '0xec5f67'
+green = '0x8bd649'
+yellow = '0xffcc00'
+blue = '0x89ddff'
+magenta = '0x82aaff'
+cyan = '0x80cbc4'
+white = '0xcdd3de'
+
+# Bright colors
+[colors.bright]
+black = '0x707880'
+red = '0xea9560'
+green = '0x2c393f'
+yellow = '0x37474f'
+blue = '0xc9ccd3'
+magenta = '0xd5dbe5'
+cyan = '0xec5f67'
+white = '0xffffff'

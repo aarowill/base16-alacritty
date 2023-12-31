@@ -1,0 +1,37 @@
+# Base16 XCode Dusk - alacritty color config
+# Elsa Gonsiorowski (https://github.com/gonsie)
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x282b35'
+foreground = '0x939599'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x282b35'
+cursor = '0x939599'
+
+# Normal colors
+[colors.normal]
+black = '0x282b35'
+red = '0xb21889'
+green = '0xdf0002'
+yellow = '0x438288'
+blue = '0x790ead'
+magenta = '0xb21889'
+cyan = '0x00a0be'
+white = '0x939599'
+
+# Bright colors
+[colors.bright]
+black = '0x686a71'
+red = '0x786dc5'
+green = '0x3d4048'
+yellow = '0x53555d'
+blue = '0x7e8086'
+magenta = '0xa9aaae'
+cyan = '0xc77c48'
+white = '0xbebfc2'

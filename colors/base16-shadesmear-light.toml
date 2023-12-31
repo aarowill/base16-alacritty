@@ -1,0 +1,37 @@
+# Base16 ShadeSmear Light - alacritty color config
+# Kyle Giammarco (http://kyle.giammar.co)
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0xdbdbdb'
+foreground = '0x232323'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0xdbdbdb'
+cursor = '0x232323'
+
+# Normal colors
+[colors.normal]
+black = '0xdbdbdb'
+red = '0xcc5450'
+green = '0x71983b'
+yellow = '0x307878'
+blue = '0x376388'
+magenta = '0xd7ab54'
+cyan = '0xc57d42'
+white = '0x232323'
+
+# Bright colors
+[colors.bright]
+black = '0x4e4e4e'
+red = '0xa64270'
+green = '0xe4e4e4'
+yellow = '0xc0c0c0'
+blue = '0x1c1c1c'
+magenta = '0x1c1c1c'
+cyan = '0x6d6d6d'
+white = '0xe4e4e4'

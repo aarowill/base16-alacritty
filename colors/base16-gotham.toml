@@ -1,0 +1,37 @@
+# Base16 Gotham - alacritty color config
+# Andrea Leopardi (arranged by Brett Jones)
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x0c1014'
+foreground = '0x599cab'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x0c1014'
+cursor = '0x599cab'
+
+# Normal colors
+[colors.normal]
+black = '0x0c1014'
+red = '0xc23127'
+green = '0x33859e'
+yellow = '0xedb443'
+blue = '0x195466'
+magenta = '0x888ca6'
+cyan = '0x2aa889'
+white = '0x599cab'
+
+# Bright colors
+[colors.bright]
+black = '0x0a3749'
+red = '0xd26937'
+green = '0x11151c'
+yellow = '0x091f2e'
+blue = '0x245361'
+magenta = '0x99d1ce'
+cyan = '0x4e5166'
+white = '0xd3ebe9'

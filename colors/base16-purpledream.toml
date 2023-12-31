@@ -1,0 +1,37 @@
+# Base16 Purpledream - alacritty color config
+# malet
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x100510'
+foreground = '0xddd0dd'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x100510'
+cursor = '0xddd0dd'
+
+# Normal colors
+[colors.normal]
+black = '0x100510'
+red = '0xff1d0d'
+green = '0x14cc64'
+yellow = '0xf000a0'
+blue = '0x00a0f0'
+magenta = '0xb000d0'
+cyan = '0x0075b0'
+white = '0xddd0dd'
+
+# Bright colors
+[colors.bright]
+black = '0x605060'
+red = '0xccae14'
+green = '0x302030'
+yellow = '0x403040'
+blue = '0xbbb0bb'
+magenta = '0xeee0ee'
+cyan = '0x6a2a3c'
+white = '0xfff0ff'

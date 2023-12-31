@@ -1,0 +1,37 @@
+# Base16 selenized-white - alacritty color config
+# Jan Warchol (https://github.com/jan-warchol/selenized) / adapted to base16 by ali
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0xffffff'
+foreground = '0x474747'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0xffffff'
+cursor = '0x474747'
+
+# Normal colors
+[colors.normal]
+black = '0xffffff'
+red = '0xbf0000'
+green = '0x008400'
+yellow = '0xaf8500'
+blue = '0x0054cf'
+magenta = '0x6b40c3'
+cyan = '0x009a8a'
+white = '0x474747'
+
+# Bright colors
+[colors.bright]
+black = '0x878787'
+red = '0xba3700'
+green = '0xebebeb'
+yellow = '0xcdcdcd'
+blue = '0x878787'
+magenta = '0x282828'
+cyan = '0xdd0f9d'
+white = '0x282828'

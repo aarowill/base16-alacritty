@@ -1,0 +1,37 @@
+# Base16 Tokyo Night Light - alacritty color config
+# Michaël Ball
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0xd5d6db'
+foreground = '0x343b59'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0xd5d6db'
+cursor = '0x343b59'
+
+# Normal colors
+[colors.normal]
+black = '0xd5d6db'
+red = '0x343b58'
+green = '0x485e30'
+yellow = '0x166775'
+blue = '0x34548a'
+magenta = '0x5a4a78'
+cyan = '0x3e6968'
+white = '0x343b59'
+
+# Bright colors
+[colors.bright]
+black = '0x9699a3'
+red = '0x965027'
+green = '0xcbccd1'
+yellow = '0xdfe0e5'
+blue = '0x4c505e'
+magenta = '0x1a1b26'
+cyan = '0x8c4351'
+white = '0x1a1b26'

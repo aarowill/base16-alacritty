@@ -1,6 +1,6 @@
 default:
-  extension: .yml
+  extension: .toml
   output: colors
 default-256:
-  extension: -256.yml
+  extension: -256.toml
   output: colors

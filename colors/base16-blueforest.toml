@@ -1,0 +1,37 @@
+# Base16 Blue Forest - alacritty color config
+# alonsodomin (https://github.com/alonsodomin)
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# Default colors
+[colors.primary]
+background = '0x141f2e'
+foreground = '0xffcc33'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text = '0x141f2e'
+cursor = '0xffcc33'
+
+# Normal colors
+[colors.normal]
+black = '0x141f2e'
+red = '0xfffab1'
+green = '0x80ff80'
+yellow = '0x91ccff'
+blue = '0xa2cff5'
+magenta = '0x0099ff'
+cyan = '0x80ff80'
+white = '0xffcc33'
+
+# Bright colors
+[colors.bright]
+black = '0xa0ffa0'
+red = '0xff8080'
+green = '0x1e5c1e'
+yellow = '0x273e5c'
+blue = '0x1e5c1e'
+magenta = '0x91ccff'
+cyan = '0xe7e7e7'
+white = '0x375780'
